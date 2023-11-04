@@ -17,6 +17,26 @@
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+	<style type="text/css">
+		.float {
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 40px;
+			right: 40px;
+			background-color: #25d366;
+			color: #FFF;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 2px 2px 3px #999;
+			z-index: 100;
+		}
+
+		.my-float {
+			margin-top: 16px;
+		}
+	</style>
 
 </head>
 <body>
@@ -285,5 +305,9 @@
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<a href="https://api.whatsapp.com/send?phone=+918050318808&text=I%20want%20to%20book%20an%20appointment." class="float" target="_blank">
+		<i class="fa fa-whatsapp my-float"></i>
+	</a>
 </body>
 </html>
